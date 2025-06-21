@@ -1,3 +1,5 @@
+Thanks for the clarification! Since your app was deployed using **Vercel**, not Streamlit Cloud, here's the updated and corrected version of your `README.md`:
+
 ---
 
 # ❤️ Heart Failure Prediction System
@@ -56,6 +58,16 @@ Key features:
 
 This application was deployed using **Vercel**. The frontend is powered by **Streamlit**, and the entire app was exported and configured for Vercel deployment using a `vercel.json` config and proper structure to serve the Streamlit interface as a static app via Vercel’s serverless platform.
 
+## 🖥️ Run Locally
+
+To test or run the app locally:
+
+```bash
+git clone https://github.com/yourusername/heart-failure-prediction.git
+cd heart-failure-prediction
+pip install -r requirements.txt
+streamlit run Heart_Failure_Prediction.ipynb
+```
 
 ## 🙌 Acknowledgements
 
@@ -63,3 +75,5 @@ This application was deployed using **Vercel**. The frontend is powered by **Str
 * [Kaggle - Heart Disease Dataset](https://www.kaggle.com/datasets)
 
 ---
+
+Let me know if you also want to include badges (like deploy status or Python version), screenshots of the UI, or instructions for deploying on Vercel.
